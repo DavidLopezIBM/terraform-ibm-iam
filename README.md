@@ -1,6 +1,5 @@
 # IBM IAM Terraform Module
 
-
 This is a collection of modules that make it easier to provision a IAM resources on IBM Cloud Platform:
 * [access-group](modules/access-group)
 * [access-group-policy](modules/access-group-policy)
