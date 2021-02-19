@@ -2,13 +2,12 @@
 # IAM Custom role
 # Copyright 2020 IBM
 #####################################################
-
 terraform {
   required_version = ">= 0.13"
   required_providers {
     ibm = {
-      source  = "IBM-Cloud/ibm"
-      version = "1.12.0"
+      source  = "ibm-cloud/ibm"
+      version = "1.11.2"
     }
   }
 }
