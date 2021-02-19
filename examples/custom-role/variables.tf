@@ -29,3 +29,7 @@ variable "actions" {
   description = "A list of action IDs that you want to add to your custom role. "
 }
 
+variable "ibmcloud_api_key" {
+  default = "test"  
+}
+
