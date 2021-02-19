@@ -3,8 +3,6 @@
 # Copyright 2020 IBM
 #####################################################
 
-provider "ibm" {
-}
 
 module "custom_role" {
   source       = "terraform-ibm-modules/iam/ibm//modules/custom-role"
