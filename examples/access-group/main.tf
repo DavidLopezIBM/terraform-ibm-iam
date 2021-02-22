@@ -7,7 +7,7 @@ provider "ibm" {
 }
 
 module "access_group" {
-  source  = "github.com/DavidLopezIBM/terraform-ibm-iam/tree/main/modules/custom-role"
+  source  = "terraform-ibm-modules/iam/ibm//modules/access-group" 
   
   name         = var.name
   tags         = var.tags
